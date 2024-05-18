@@ -28,7 +28,9 @@ int main()
 
             p23.write(0);
             p25.write(1);
-
+/*Code compiles but for some reason on line above the following message appears before p25.write(1)
+"Expected ';' after expression (fix available)clang(expected_semi_after_expr)"
+All semicolons seem to be where needed however the red squiggle wont go away.*/
         }
         else if(p16 == true && p13 == true){ // Condition for possibility not described in flowchart
 
